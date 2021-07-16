@@ -23,7 +23,6 @@
           rounded
           shadow-xl
           bg-gray-400
-          mx-auto
           block;
 }
 .btn:hover {
