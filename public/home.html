@@ -19,7 +19,7 @@
       <div class="text-4xl">&equiv;</div>
     </div>
 
-    <main class="bg-gray-500 pb-8">
+    <main class="pb-8">
       <div
         class="h-56 md:h-100 md:bg-center bg-no-repeat bg-cover bg-bottom"
         style="
@@ -28,12 +28,17 @@
       ></div>
 
       <div class="container mx-auto md:flex">
-
         <!-- Card 1 -->
         <div class="mx-2 md:mx-0 mt-4 md:w-1/2 md:flex md:bg-white rounded-lg">
           <div>
             <img
-              class="w-full md:w-48 md:h-full object-cover object-left rounded-lg md:rounded-r-none"
+              class="
+                w-full
+                md:w-48 md:h-full
+                object-cover object-left
+                rounded-lg
+                md:rounded-r-none
+              "
               src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80"
               alt="Hamburguer"
             />
@@ -74,10 +79,24 @@
         </div>
 
         <!-- Card 2 -->
-        <div class="mx-2 md:mx-0 md:ml-2 mt-4 md:w-1/2 md:flex md:bg-white rounded-lg">
+        <div
+          class="
+            mx-2
+            md:mx-0 md:ml-2
+            mt-4
+            md:w-1/2 md:flex md:bg-white
+            rounded-lg
+          "
+        >
           <div>
             <img
-              class="w-full md:w-48 md:h-full object-cover object-left rounded-lg md:rounded-r-none"
+              class="
+                w-full
+                md:w-48 md:h-full
+                object-cover object-left
+                rounded-lg
+                md:rounded-r-none
+              "
               src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80"
               alt="Hamburguer"
             />
@@ -115,6 +134,88 @@
               &starf;&starf;&starf;&starf;&star; / 36 Reviews
             </div>
           </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="mx-2">
+        <div>
+          <div>Name</div>
+          <input
+            class="
+              w-full
+              leading-snug
+              text-gray-800
+              placeholder-secondary
+              py-1
+              px-4
+              rounded
+              bg-gray-300
+              hover:bg-white
+              border-blue-300
+              focus:outline-none
+              focus:shadow-outline
+              border-2
+            "
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+          />
+        </div>
+
+        <div>
+          <div>Email</div>
+          <input
+            class="
+              w-full
+              leading-snug
+              text-gray-800
+              placeholder-secondary
+              py-1
+              px-4
+              rounded
+              bg-gray-300
+              hover:bg-white
+              border-blue-300
+              focus:outline-none
+              focus:shadow-outline
+              border-2
+            "
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+          />
+        </div>
+
+        <div>
+          <div>Comments</div>
+          <textarea
+            class="
+              w-full
+              leading-snug
+              text-gray-800
+              placeholder-secondary
+              py-1
+              px-4
+              rounded
+              bg-gray-300
+              hover:bg-white
+              border-blue-300
+              focus:outline-none
+              focus:shadow-outline
+              border-2
+            "
+            name="comments"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+
+        <div>
+          <button class="px-4 py-1 rounded shadow-xl bg-gray-400 mx-auto block hover:shadow-none hover:bg-gray-500 hover:text-white">Submit</button>
         </div>
       </div>
     </main>
